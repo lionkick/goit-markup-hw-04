@@ -367,13 +367,50 @@ img {
   text-align: center;
   font-size: 16px;
   letter-spacing: 0.48px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 16px;
 }
 .our-team-person {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/*
+==================================
+-= Social icons =-
+==================================
+*/
+.socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
 
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block; */
+  width: 44px;
+  height: 44px;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+}
+
+.socials-icon {
+  fill: #afb1b8;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+}
+
+.social-link:hover .socials-icon,
+.social-link:focus .socials-icon {
+  fill: #fff;
+}
 /*
 ==================================
 -= Portfolio section =-
